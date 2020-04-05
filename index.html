@@ -16,6 +16,24 @@
     <!-- header -->
     <header>
       <!-- navbar -->
+      <nav class="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./images/logo.svg" class="nav-logo" alt="" />
+            <button class="nav-btn">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- nav links -->
+          <ul class="nav-links">
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="projects.html">projects</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </div>
+      </nav>
       <!-- end of navbar -->
       <section class="hero">
         <div class="section-center hero-center">
@@ -221,8 +239,15 @@
     <!-- endo of projects -->
     <!-- connect -->
     <section class="connect">
-      <video autoplay muted loop class="video-container">
-        <source src="./videos/connect.mp4" type="video/mp4" />
+      <video
+        controls
+        autoplay
+        muted
+        loop
+        poster="./images/project-4.jpeg"
+        class="video-container"
+      >
+        <!-- <source src="./videos/connect.mp4" type="video/mp4" /> -->
         Sorry, your browser doesn't support embedded videos.
       </video>
       <div class="video-banner">
@@ -240,6 +265,72 @@
       </div>
     </section>
     <!-- end of connect -->
+    <!-- skills -->
+    <section class="skills section">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>skills</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- section title -->
+      <div class="section-center skills-center">
+        <article>
+          <h3>front end</h3>
+          <!-- single skill -->
+          <div class="skill">
+            <p>HTML/CSS</p>
+            <div class="skill-container">
+              <div class="skill-value"></div>
+            </div>
+          </div>
+          <!-- end of single skill -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>javascript</p>
+            <div class="skill-container">
+              <div class="skill-value value-70"></div>
+            </div>
+          </div>
+          <!-- end of single skill -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>react</p>
+            <div class="skill-container">
+              <div class="skill-value value-80"></div>
+            </div>
+          </div>
+          <!-- end of single skill -->
+        </article>
+        <article>
+          <h3>back end</h3>
+          <!-- single skill -->
+          <div class="skill">
+            <p>node</p>
+            <div class="skill-container">
+              <div class="skill-value"></div>
+            </div>
+          </div>
+          <!-- end of single skill -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>PHP</p>
+            <div class="skill-container">
+              <div class="skill-value value-70"></div>
+            </div>
+          </div>
+          <!-- end of single skill -->
+          <!-- single skill -->
+          <div class="skill">
+            <p>python</p>
+            <div class="skill-container">
+              <div class="skill-value value-80"></div>
+            </div>
+          </div>
+          <!-- end of single skill -->
+        </article>
+      </div>
+    </section>
+    <!-- end of skills -->
     <script src="./js/app.js"></script>
   </body>
 </html>
