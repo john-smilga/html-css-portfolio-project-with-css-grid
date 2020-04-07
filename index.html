@@ -13,82 +13,128 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="./images/logo.svg" class="nav-logo" alt="" />
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav links -->
+        <ul class="nav-links">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="projects.html">projects</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="projects.html">projects</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+        <ul class="social-icons">
+          <!-- single item -->
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+          <!-- single item -->
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+          <!-- single item -->
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-squarespace"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+          <!-- single item -->
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-behance"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+          <!-- single item -->
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <!-- end of single item -->
+        </ul>
+      </div>
+    </aside>
+    <!-- end of sidebar -->
     <!-- header -->
-    <header>
-      <!-- navbar -->
-      <nav class="nav">
-        <div class="nav-center">
-          <!-- nav header -->
-          <div class="nav-header">
-            <img src="./images/logo.svg" class="nav-logo" alt="" />
-            <button class="nav-btn">
-              <i class="fas fa-bars"></i>
-            </button>
-          </div>
-          <!-- nav links -->
-          <ul class="nav-links">
-            <li><a href="index.html">home</a></li>
-            <li><a href="about.html">about</a></li>
-            <li><a href="projects.html">projects</a></li>
-            <li><a href="contact.html">contact</a></li>
+    <header class="hero">
+      <div class="section-center hero-center">
+        <article class="hero-info">
+          <div class="underline"></div>
+          <h1>i'm john</h1>
+          <h4>freelance web & mobile UI/UX Designer</h4>
+          <a href="contact.html" class="btn hero-btn">hire me</a>
+          <ul class="social-icons hero-icons">
+            <!-- single item -->
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <!-- end of single item -->
+            <!-- single item -->
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <!-- end of single item -->
+            <!-- single item -->
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-squarespace"></i>
+              </a>
+            </li>
+            <!-- end of single item -->
+            <!-- single item -->
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-behance"></i>
+              </a>
+            </li>
+            <!-- end of single item -->
+            <!-- single item -->
+            <li>
+              <a href="https://www.twitter.com" class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <!-- end of single item -->
           </ul>
-        </div>
-      </nav>
-      <!-- end of navbar -->
-      <section class="hero">
-        <div class="section-center hero-center">
-          <article class="hero-info">
-            <div class="underline"></div>
-            <h1>i'm john</h1>
-            <h4>freelance web & mobile UI/UX Designer</h4>
-            <a href="contact.html" class="btn hero-btn">hire me</a>
-            <ul class="hero-icons">
-              <!-- single item -->
-              <li>
-                <a href="https://www.twitter.com" class="hero-icon">
-                  <i class="fab fa-facebook"></i>
-                </a>
-              </li>
-              <!-- end of single item -->
-              <!-- single item -->
-              <li>
-                <a href="https://www.twitter.com" class="hero-icon">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-              </li>
-              <!-- end of single item -->
-              <!-- single item -->
-              <li>
-                <a href="https://www.twitter.com" class="hero-icon">
-                  <i class="fab fa-squarespace"></i>
-                </a>
-              </li>
-              <!-- end of single item -->
-              <!-- single item -->
-              <li>
-                <a href="https://www.twitter.com" class="hero-icon">
-                  <i class="fab fa-behance"></i>
-                </a>
-              </li>
-              <!-- end of single item -->
-              <!-- single item -->
-              <li>
-                <a href="https://www.twitter.com" class="hero-icon">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <!-- end of single item -->
-            </ul>
-          </article>
-          <article class="hero-img">
-            <img
-              src="./images/hero-img.jpeg"
-              class="hero-photo"
-              alt="john doe"
-            />
-          </article>
-        </div>
-      </section>
+        </article>
+        <article class="hero-img">
+          <img src="./images/hero-img.jpeg" class="hero-photo" alt="john doe" />
+        </article>
+      </div>
     </header>
     <!-- end of header -->
     <!-- about -->
