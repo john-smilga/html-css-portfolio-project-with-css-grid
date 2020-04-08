@@ -789,3 +789,137 @@ Timeline
   right: 0;
   transform: translate(50%, -50%);
 }
+/*
+=============== 
+Blog
+===============
+*/
+.blog {
+  background: var(--clr-grey-10);
+}
+.card {
+  perspective: 1500px;
+  height: 26rem;
+  position: relative;
+}
+.card-side {
+  transition: all 2s linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: var(--radius);
+}
+.card-front {
+  background: var(--clr-white);
+}
+.card-back {
+  transform: rotateY(180deg);
+  background: var(--clr-primary-10);
+  display: grid;
+  place-items: center;
+}
+.card:hover .card-front {
+  transform: rotateY(-180deg);
+}
+.card:hover .card-back {
+  transform: rotateY(0);
+}
+/* rest of the styles */
+.card-front img {
+  height: 13rem;
+  object-fit: cover;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+.card-footer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+.card-footer img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.card-footer p {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  justify-self: end;
+  color: var(--clr-primary-5);
+  font-size: 0.85rem;
+}
+.card-info {
+  padding: 1rem 1.5rem;
+}
+.blog-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(368px, 1fr));
+  gap: 3rem 1rem;
+}
+/*
+=============== 
+Footer
+===============
+*/
+
+.footer {
+  padding-bottom: 2rem;
+  background: #222;
+  display: grid;
+  place-items: center;
+}
+.footer .social-icons {
+  margin-bottom: 2rem;
+}
+.footer .social-icon {
+  color: var(--clr-primary-5);
+}
+.footer .social-icon:hover {
+  color: var(--clr-primary-10);
+}
+.footer p {
+  font-size: 1.25rem;
+  /* color: var(--clr-white); */
+}
+
+/*
+=============== 
+Single Page
+===============
+*/
+.single-page {
+  background-color: var(--clr-primary-10);
+  min-height: calc(100vh - 5rem - 198px);
+}
+.page-info {
+  max-width: 700px;
+  background: var(--clr-primary-10);
+}
+
+.page-info a {
+  text-transform: uppercase;
+  color: var(--clr-primary-5);
+  transition: var(--transition);
+}
+
+.page-info a:hover {
+  color: var(--clr-primary-1);
+}
+/*
+=============== 
+Projects
+===============
+*/
+.projects-hero {
+  height: 40vh;
+  background: var(--clr-primary-10);
+  display: grid;
+  place-items: center;
+}
+.projects-hero .section-title {
+  margin-bottom: 0;
+}
