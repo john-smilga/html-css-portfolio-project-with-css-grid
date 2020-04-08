@@ -227,8 +227,7 @@ Navbar
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    column-gap: 1rem;
-    max-width: 35rem;
+    column-gap: 2rem;
   }
   .nav-links a {
     text-transform: capitalize;
@@ -245,6 +244,7 @@ Navbar
     grid-template-columns: auto 1fr;
     align-items: center;
   }
+
   .nav-links {
     justify-self: end;
   }
