@@ -838,7 +838,7 @@ Blog
 .card {
   -webkit-perspective: 1500px;
   perspective: 1500px;
-  height: 26rem;
+  height: 27rem;
   position: relative;
 }
 .card-side {
